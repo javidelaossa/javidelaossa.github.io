@@ -54,6 +54,7 @@ body {
 	background: #1C2833;
 	border: 0;
 	text-transform: uppercase;
+	cursor: pointer;
 	padding: 1em;
 }
 .info {
