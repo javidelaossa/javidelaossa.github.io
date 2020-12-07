@@ -1,0 +1,33 @@
+.contenedor {
+  display: flex;
+  width: 380px;
+  height: 40px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  margin: auto;
+  overflow: hidden;
+}
+.aniul  {
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 5s infinite;
+}
+.aniul ul, p {
+  margin: 0;
+}
+@keyframes cambiar{
+  0%{margin-top: 0;}
+  30%{margin-top: 0;}
+
+  35%{margin-top: -40px;}
+  65%{margin-top: -40px;}
+
+  70%{margin-top: -80px;}
+  100%{margin-top: -80px;}
+}

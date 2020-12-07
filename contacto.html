@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACTO</title>
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/0abd03fb7b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css\contacto.css">
+	<link rel="stylesheet" href="css/principal.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<!--Menu-->
+	        <header>
+	            <div class="header-content">
+	                <div class="logo ">
+	                    <a style="text-decoration: none; color: black;" href="index.html">
+	                    	<h1>ENDURO<b>WORLD</b></h1></a>
+	                </div>
+	                <div class="menu" id="show-menu">
+	                    <nav>
+	                        <ul>
+	                            <li><a href="index.html"> <i class="fas fa-home"></i> INICIO</a></li>
+	                            <li><a href="tienda.html"> <i class="fab fa-youtube"> </i>TIENDA</a></li>
+	                            <li><a href="blog.html"> <i class="fas fa-file-alt"></i>BLOG</a></li>
+	                            <li class="menu-selected"><a href="contacto.html"> <i class="fas fa-headset"></i> CONTACTO</a></li>
+	                        </ul>
+	                    </nav>
+	                </div>
+	                <div id="ctn-icon-search">
+	                    <i class="fas fa-search" id="icon-search"></i>
+	                </div>
+	            </div>
+	            <div id="icon-menu">
+	            	<i class="fas fa-bars"></i>
+	            </div>
+	        </header>
+	        <div id="ctn-bars-search">
+	            <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+	        </div>    
+	        <div id="cover-ctn-search"></div>
+			<ul id="box-search">
+			        <li><a href="index.html"><i class="fas fa-search"></i>INICIO</a></li>
+			        <li><a href="tienda.html"><i class="fas fa-search"></i>TIENDA</a></li>
+			        <li><a href="blog.html"><i class="fas fa-search"></i>BLOG</a></li>
+			        <li><a href="contacto.html"><i class="fas fa-search"></i>CONTACTO</a></li>
+			        <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
+			        <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
+			        <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
+			        <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+			</ul>
+			<div id="cover-ctn-search"></div>
+			<script src="js/script.js"></script>			
+	<div class="content">
+		<h1 class="logov2">Contáctanos</h1>
+		<div class="contacto">
+			<div class="formulario">
+				<h3>Formulario</h3>
+				<form action="mailto:contact@enduroworld.es">
+					<p>
+						<label for="nombrecompleto"> Nombre completo: </label>
+						<input type="text" name="nombrecompleto" id="nombrecompleto" required>
+					</p>
+					<p>
+						<label for="correo">Correo electrónico: </label>
+						<input type="email" name="correo" id="correo" required>
+					</p>
+					<p>
+						<label for=telefono>Teléfono: (666-666-666)</label>
+						<input type="tel" name="telefono" id="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+					</p>
+					<p>
+						<label for="asunto">Asunto: </label>
+						<input type="text" name="asunto" id="asunto" required>
+					</p>
+					<p class="block">
+						<label for="mensaje">Mensaje: </label>
+						<textarea name="mensaje" id="mensaje" rows="3" required></textarea>
+					</p>
+					<button class="block" type="submit">
+						Enviar
+					</button>
+				</form>
+			</div>
+			<div class="info">
+				<h4>Más información</h4>
+				<ul>
+					<li><a target="_blank" href="https://goo.gl/maps/nzVrNEoW9CpxntGB9"><i class="fas fa-map-pin"></i> Calle Fernández de Ribera, 17, 41005 Sevilla</a></li>
+					<li><a href="tel:955 62 38 77"><i class="fas fa-phone"></i> 955 62 38 77</a></li>
+					<li><a href="mailto:contact@enduroworld.es"><i class="far fa-envelope"></i></i> contact@enduroworld.es</a></li>
+					<li><a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i> /ENDUROWORLD</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></i> /ENDUROWORLD</a></li>
+					<li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></i> /ENDUROWORLD</a></li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>enduroworld.es</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
