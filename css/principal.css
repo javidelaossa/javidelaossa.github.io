@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +6,6 @@
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 body{
     background: #273746;
 }
@@ -31,42 +28,34 @@ header{
     box-shadow: 0 4px 25px -22px black;
     z-index: 10;
 }
-
-.header-content{
+.contenidoencabezado{
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
-
 .logo{
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .logo h1 b{
     color: #6E9BC4;
 }
-
-
 .menu {
     height: 80px;
     margin-right: 60px;
 }
-
 .menu nav{
     height: 100%;
 }
-
 .menu nav ul{
     height: 100%;
     display: flex;
     list-style: none;
 }
-
 .menu nav ul li{
     height: 100%;
     margin: 0px 20px;
@@ -75,8 +64,7 @@ header{
     align-items: center;
     position: relative;
 }
-
-.menu-selected:before{
+.menuactivo:before{
     content: '';
     width: 100%;
     height: 4px;
@@ -85,26 +73,19 @@ header{
     top: 0;
     left: 0;
 }
-
 .menu nav ul li a{
     color: #777777;
     font-size: 18px;
     transition: color 300ms;
 }
-
 .menu nav ul li a:hover{
     color: #6E9BC4;
 }
-
-.menu .text-menu-selected{
-    color: #6E9BC4;
-}
-
 .menu nav ul li a i{
     display: none;
 }
 
-#icon-menu{
+.iconomenu{
     width: 50px;
     height: 50px;
     position: absolute;
@@ -121,15 +102,11 @@ header{
     cursor: pointer;
 }
 
-#icon-menu:hover{
+.iconomenu:hover{
     opacity: 0.8;
 }
-
-
-
 /*Buscador de contenido*/
-
-#ctn-icon-search{
+.contanidoiconobusqueda{
     position: absolute;
     right: 20px;
     height: 100%;
@@ -138,14 +115,14 @@ header{
     align-items: center;
 }
 
-#ctn-icon-search i{
+.contanidoiconobusqueda i{
     font-size: 18px;
     color: #777777;
     cursor: pointer;
     transition: all 300ms;
 }
 
-#ctn-icon-search i:hover{
+.contanidoiconobusqueda i:hover{
     color: #6E9BC4;
 }
 

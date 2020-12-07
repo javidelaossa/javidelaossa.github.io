@@ -4,9 +4,77 @@
 	<title>TIENDA</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css\principal.css">
-	
+	<link rel="stylesheet" type="text/css" href="css\tienda.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body >
-	
+	<!--Menu-->
+	        <header>
+	            <div class="header-content">
+	                <div class="logo">
+	                    <a style="text-decoration: none; color: black;" href="index.html">
+	                    	<h1>ENDURO<b>WORLD</b></h1></a>
+	                </div>
+	                <div class="menu" id="show-menu">
+	                    <nav>
+	                        <ul>
+	                            <li class="menu-selected"><a href="index.html"> <i class="fas fa-home"></i> INICIO</a></li>
+	                            <li><a href="tienda.html"> <i class="fab fa-youtube"> </i>TIENDA</a></li>
+	                            
+
+	                            <li><a href="contacto.html"> <i class="fas fa-headset"></i> CONTACTO</a></li>
+	                        </ul>
+	                    </nav>
+	                </div>
+	                <div id="ctn-icon-search">
+	                    <i class="fas fa-search" id="icon-search"></i>
+	                </div>
+	            </div>
+	            <div id="icon-menu">
+	            	<i class="fas fa-bars"></i>
+	            </div>
+	        </header>
+	        <div id="ctn-bars-search">
+	            <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+	        </div>    
+	        <div id="cover-ctn-search"></div>
+			<ul id="box-search">
+			        <li><a href="index.html"><i class="fas fa-search"></i>INICIO</a></li>
+			        <li><a href="tienda.html"><i class="fas fa-search"></i>TIENDA</a></li>
+			        <li><a href="index.html"><i class="fas fa-search"></i>BLOG</a></li>
+			        <li><a href="contacto.html"><i class="fas fa-search"></i>CONTACTO</a></li>       
+			        <li><a href="blogs/cascosalpine.html"><i class="fas fa-search"></i>CASCOS ALPINESTARS SUPERTECH M5</a></li>
+			        <li><a href="blogs/rieju.html"><i class="fas fa-search"></i>RIEJU ADQUIERE GAS GAS</a></li>
+			</ul>
+			<div id="cover-ctn-search"></div>
+			<script src="js/script.js"></script>			
+	<div class="tienda">
+    <div class="cartera">
+        <div class="icono">
+          <i class="fas fa-shopping-cart"></i>
+          <span>CARRITO</span>
+        </div>
+        <div class="contador">0</div>
+    </div>
+      <div class="tarjeta">
+        <img src="img/rieju.jpg" alt="">
+        <div class="contenidotarj">
+          <div class="fila">
+            <div class="detalles">
+              <span>ESCAPE</span>
+              <p>Premium headphone</p>
+            </div>
+            <div class="precio">$30</div>
+          </div>
+          <div class="boton">
+            <button>COMPRAR</button>
+            <button class="añadir">AÑADIR AL CARRITO</button>
+          </div>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
 </body>
 </html>
