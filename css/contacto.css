@@ -18,7 +18,7 @@ body {
 	padding: 1em;
 }
 .formulario {
-	background-color: #5D6D7E;
+	background-color: #eeeeee;
 }
 .formulario form {
 	display: grid;
@@ -40,25 +40,25 @@ body {
 	border: none;
 	background: none;
 	outline: 0;
-	color: #fff;
-	border-bottom: 1px solid #1C2833;
+	color: #eeeeee;
+	border-bottom: 1px solid #00adb5;
 }
 .formulario form button:hover,
 .formulario form button:focus {
-	background: #85929E;
-	color: #1C2833;
+	background: #393e46;
+	color: #00adb5;
 	transition: background-color 1s ease-out;
 	outline: 0;
 }
 .formulario form button {
-	background: #1C2833;
+	background: #00adb5;
 	border: 0;
 	text-transform: uppercase;
 	cursor: pointer;
 	padding: 1em;
 }
 .info {
-	background-color: #212F3D;
+	background-color: #393e46;
 }
 .info h4,
 .info ul,
@@ -93,6 +93,6 @@ body {
 	}
 }
 .info a {
-	color: #fff;
+	color: #eeeeee;
 	text-decoration: none;
 }

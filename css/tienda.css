@@ -2,12 +2,11 @@
 	margin-top: 100px;
 	margin-left: 20px;
 	margin-right: 20px;
-
 }
 .tienda .cartera {
 	float: right;
 	cursor: pointer;
-	background: #fff;
+	background: #eeeeee;
 	width: 170px;
 	padding: 13px 15px;
 	border-radius: 3px;
@@ -19,36 +18,36 @@
 	color: black;
 }
 .cartera .icono i {
-	font-size: 20px;
+  font-size: 20px;
 }
 .cartera .icono span {
-	font-weight: 500;
+  font-weight: 500;
 }
 .cartera .contador {
 	font-size: 15px;
   height: 23px;
   width: 23px;
-  color: #ff7979;
-  background: #ffcccc;
+  color: #00adb5;
+  background: #AFFBFF;
   text-align: center;
   line-height: 22px;
- 	border: 1px solid #ffb3b3;
+ 	border: 1px solid #006D72;
   border-radius: 50%;
 
 }
 .tienda .tarjeta {
   top: 100px;
 	position: relative;
-	background: #fff;
+	background: #eeeeee;
  	border-radius: 3px;
-  	width: calc(33% - 13px);
-  	overflow: hidden;
-  	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.15);
+  width: calc(33% - 13px);
+  overflow: hidden;
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.15);
 }
 .tienda .tarjeta img {
 	width: 100%;
-  	border-radius: 3px;
-  	transition: all 0.3s ease;
+  border-radius: 3px;
+  transition: all 0.3s ease;
 }
 .tarjeta:hover img {
 	transform: scale(1.1);
@@ -56,11 +55,11 @@
 .tienda .tarjeta .contenidotarj {
 	position: absolute;
  	width: 100%;
-  	bottom: -50%;
-  	background: #fff;
-  	padding: 10px 20px 22px 20px;
-  	box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.15);
-  	transition: all 0.3s ease;
+  bottom: -50%;
+  background: #eeeeee;
+  padding: 10px 20px 22px 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
 }
 .tienda .tarjeta:hover .contenidotarj{
 	bottom: 0;
@@ -68,52 +67,52 @@
 .tarjeta .contenidotarj .fila,
 .contenidotarj .boton{
 	display: flex;
-  	justify-content: space-between;
+  justify-content: space-between;
 }
 .contenidotarj .fila .detalles span{
 	font-size: 22px;
-  	font-weight: 500;
+  font-weight: 500;
 }
 .contenidotarj .fila .detalles p{
 	color: #333;
-  	font-size: 17px;
-  	font-weight: 400;
+  font-size: 17px;
+  font-weight: 400;
 }
 .contenidotarj .fila .precio {
-	color: #ff7979;
-  	font-size: 25px;
-  	font-weight: 600;
+	color: #00adb5;
+  font-size: 25px;
+  font-weight: 600;
 }
 .contenidotarj .boton {
 	margin-top: 20px;
 }
 .contenidotarj .boton button {
 	width: 100%;
-  	padding: 9px 0;
-  	outline: none;
-  	cursor: pointer;
-  	font-size: 17px;
-  	font-weight: 500;
-  	border-radius: 3px;
-  	border: 2px solid #ff7979;
-  	text-transform: uppercase;
-  	transition: all 0.3s ease;
+  padding: 9px 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 2px solid #00adb5;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 .boton button:first-child{
-	color: #ff7979;
-  	margin-right: 10px;
-  	background: #fff;
+	color: #00adb5;
+  margin-right: 10px;
+  background: #eeeeee;
 }
 button:first-child:hover{
-	color: #fff;
-  	background: #ff7979;
+	color: #eeeeee;
+  background: #00adb5;
 }
 .boton button:last-child{
-	color: #fff;
-  	margin-left: 10px;
-  	background: #ff7979;
+	color: #eeeeee;
+  margin-left: 10px;
+  background: #00adb5;
 }
 button:last-child:hover{
-	background: #ff6666;
-  	border-color: #ff6666;
+	background: #027E83;
+  border-color: #027E83;
 }
