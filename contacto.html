@@ -11,18 +11,19 @@
 <body>
 	<!--Menu-->
 	        <header>
-	            <div class="header-content">
-	                <div class="logo ">
+	            <div class="contenidoencabezado">
+	                <div class="logo">
 	                    <a style="text-decoration: none; color: black;" href="index.html">
 	                    	<h1>ENDURO<b>WORLD</b></h1></a>
 	                </div>
 	                <div class="menu" id="show-menu">
 	                    <nav>
 	                        <ul>
-	                            <li><a href="index.html"> <i class="fas fa-home"></i> INICIO</a></li>
+	                            <li class="menuactivo"><a href="index.html"> <i class="fas fa-home"></i> INICIO</a></li>
 	                            <li><a href="tienda.html"> <i class="fab fa-youtube"> </i>TIENDA</a></li>
-	                            <li><a href="blog.html"> <i class="fas fa-file-alt"></i>BLOG</a></li>
-	                            <li class="menu-selected"><a href="contacto.html"> <i class="fas fa-headset"></i> CONTACTO</a></li>
+	                            
+
+	                            <li><a href="contacto.html"> <i class="fas fa-headset"></i> CONTACTO</a></li>
 	                        </ul>
 	                    </nav>
 	                </div>
@@ -41,16 +42,14 @@
 			<ul id="box-search">
 			        <li><a href="index.html"><i class="fas fa-search"></i>INICIO</a></li>
 			        <li><a href="tienda.html"><i class="fas fa-search"></i>TIENDA</a></li>
-			        <li><a href="blog.html"><i class="fas fa-search"></i>BLOG</a></li>
-			        <li><a href="contacto.html"><i class="fas fa-search"></i>CONTACTO</a></li>
-			        <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
-			        <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
-			        <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
-			        <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+			        <li><a href="index.html"><i class="fas fa-search"></i>BLOG</a></li>
+			        <li><a href="contacto.html"><i class="fas fa-search"></i>CONTACTO</a></li>       
+			        <li><a href="blogs/cascosalpine.html"><i class="fas fa-search"></i>CASCOS ALPINESTARS SUPERTECH M5</a></li>
+			        <li><a href="blogs/rieju.html"><i class="fas fa-search"></i>RIEJU ADQUIERE GAS GAS</a></li>
 			</ul>
 			<div id="cover-ctn-search"></div>
 			<script src="js/script.js"></script>			
-	<div class="content">
+	<div class="contenido">
 		<h1 class="logov2">Contáctanos</h1>
 		<div class="contacto">
 			<div class="formulario">
@@ -72,11 +71,11 @@
 						<label for="asunto">Asunto: </label>
 						<input type="text" name="asunto" id="asunto" required>
 					</p>
-					<p class="block">
+					<p class="bloquear">
 						<label for="mensaje">Mensaje: </label>
 						<textarea name="mensaje" id="mensaje" rows="3" required></textarea>
 					</p>
-					<button class="block" type="submit">
+					<button class="bloquear" type="submit">
 						Enviar
 					</button>
 				</form>

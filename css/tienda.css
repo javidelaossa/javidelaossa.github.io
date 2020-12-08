@@ -26,14 +26,14 @@
 }
 .cartera .contador {
 	font-size: 15px;
-  	height: 23px;
-  	width: 23px;
-  	color: #ff7979;
-  	background: #ffcccc;
-  	text-align: center;
-  	line-height: 22px;
+  height: 23px;
+  width: 23px;
+  color: #ff7979;
+  background: #ffcccc;
+  text-align: center;
+  line-height: 22px;
  	border: 1px solid #ffb3b3;
-  	border-radius: 50%;
+  border-radius: 50%;
 
 }
 .tienda .tarjeta {
