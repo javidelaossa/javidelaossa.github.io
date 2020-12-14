@@ -21,6 +21,7 @@ body {
 	background-color: #eeeeee;
 }
 .formulario form {
+	/* grid: se utiliza para dividir en cuadriculas; */
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }

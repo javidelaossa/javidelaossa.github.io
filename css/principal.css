@@ -1,3 +1,4 @@
+/* importa la fuente del propio google fonts (la misma página te da el codigo para implementarlo*/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 *{
     margin: 0;
@@ -9,6 +10,7 @@
 body{
     background: #222831;
 }
+/* scrollbar utilizada para cambiarle tanto el tamaó como los colores a la hora de dar click sobre la misma  */
 body::-webkit-scrollbar {
     width: 0.5rem;
 }
@@ -64,6 +66,7 @@ header{
     align-items: center;
     position: relative;
 }
+/* before crea un elemento que es el hijo del primer elemento seleccionado */
 .menuactivo:before{
     content: '';
     width: 100%;
@@ -99,6 +102,7 @@ header{
     display: none;
     justify-content: center;
     align-items: center;
+    /* se utiliza para que te salga el cursor con la forma de clicar */
     cursor: pointer;
 }
 
@@ -138,6 +142,7 @@ header{
     margin: auto;
     padding: 10px;
     font-size: 18px;
+    /*se utiliza para el contorno */
     outline: 0;
 }
 #box-search{
@@ -147,6 +152,7 @@ header{
     transform: translateX(-50%);
     width: 1200px;
     background: #fff;
+    /* indica el orden */
     z-index: 8;
     overflow: hidden;
     display: none;

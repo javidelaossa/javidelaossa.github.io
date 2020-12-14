@@ -98,6 +98,7 @@
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
+/* first-child utiliza el primer boton y aplica los valores del mismo*/
 .boton button:first-child{
 	color: #00adb5;
   margin-right: 10px;
@@ -107,6 +108,7 @@ button:first-child:hover{
 	color: #eeeeee;
   background: #00adb5;
 }
+/* first-child utiliza el ultimo boton y aplica los valores del mismo*/
 .boton button:last-child{
 	color: #eeeeee;
   margin-left: 10px;

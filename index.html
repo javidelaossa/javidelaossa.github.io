@@ -4,17 +4,19 @@
 	<title>ENDUROWORLD</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css\animacion.css">
+	<!-- Implementa un script para poder utilizar iconos de la página web // Se implementan los iconos mediante un <i> con clases que se cogen la misma web fontawesome -->
 	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/tarjetas.css">
+    <!-- Se declara las instrucciones para controlar las dimensiones y la escala de la página, la parte del content establece ancho de la página -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Implementa un script para la animación que se desvanezca y aparezca la siguiente parte del index -->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 	    setTimeout(function() {
 	        $(".ani1").fadeOut(1500);
 	    },3000);
-	 
 	    setTimeout(function() {
 	        $(".ani2").fadeIn(1500);
 	    },4000);
@@ -52,8 +54,6 @@
 	                        <ul>
 	                            <li class="menuactivo"><a href="index.html"> <i class="fas fa-home"></i> INICIO</a></li>
 	                            <li><a href="tienda.html"> <i class="fab fa-youtube"> </i>TIENDA</a></li>
-	                            
-
 	                            <li><a href="contacto.html"> <i class="fas fa-headset"></i> CONTACTO</a></li>
 	                        </ul>
 	                    </nav>
@@ -78,10 +78,10 @@
 			        <li><a href="blogs/cascosalpine.html"><i class="fas fa-search"></i>CASCOS ALPINESTARS SUPERTECH M5</a></li>
 			        <li><a href="blogs/rieju.html"><i class="fas fa-search"></i>RIEJU ADQUIERE GAS GAS</a></li>
 			        <li><a href="blogs/endurovsmoto.html"><i class="fas fa-search"></i>OFFROAD PARA NOVATOS: ¿ENDURO VS MOTOCROSS?</a></li>
-			        <li><a href="https://drive.google.com/open?id=1-a_ESqUvmrchWdAENOX5v-CycIArWX3m&authuser=josspue1604%40iesmartinezm.es&usp=drive_fs"><i class="fas fa-search"></i>MAPA WEB</a></li>
-			        
+			        <li><a href="https://drive.google.com/open?id=1-a_ESqUvmrchWdAENOX5v-CycIArWX3m&authuser=josspue1604%40iesmartinezm.es&usp=drive_fs"><i class="fas fa-search"></i>MAPA WEB</a></li>      
 			</ul>
 			<div id="cover-ctn-search"></div>
+			<!-- Implementa un script para el buscador de la web a la hora de utilizar los li -->
 			<script src="js/script.js"></script>			
     	<div class="panelestarjetas">
         <a href="blogs/cascosalpine.html"><div class="tarjeta">
@@ -112,6 +112,5 @@
             <a style="float: right; margin-right: 10px;" href="blogs/cascosalpine.html">Leer más</a>
         </div></a>
     </div>
-    
 </body>
 </html>
